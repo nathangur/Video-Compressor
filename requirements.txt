@@ -1,0 +1,11 @@
+moviepy>=1.0.3
+
+pathlib>=1.0.1
+
+pyinstaller>=4.2
+
+configparser>=5.0.2
+
+ffmpeg-python>=0.2.0
+
+argparse>=1.4.0
