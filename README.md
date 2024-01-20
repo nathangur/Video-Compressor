@@ -7,3 +7,9 @@ A simple video compressor made to compress videos to under 25mb to fit into disc
 - Compresses video files to a target size of 25 MB or less.
 - Supports various video formats including MP4, AVI, MOV, MKV, FLV, and WMV.
 - Ensures efficient and quick compression with minimal quality loss.
+
+## Usage
+
+The video compressor will check a video file for a date format such as year -> month -> day. Once the date has been parsed, a new folder will be created where you selected the video file to be converted called "compressed". The monthy and the day will then be taken to make a new folder that is month -> day. 
+
+There is an option to keep the original files. If selected (on by default) the original files will be moved from the selected folder into a new folder called "originals" and organized by the date. If this option is not selected, the original files will be deleted after being compressed.
